@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    color: #e62117;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: sans-serif;
+}
+
+/* Initial Window */
+
+blockquote {
+  margin-top: 10%;
+  font-size: 14px;
+  color: grey;
+}
+.box.col-xs-12{
+  padding-right: 30%;
+  padding-left: 30%;
+}
+.searchInit {
+  padding-top: 15%;
+}
+.displaynone {
+  display: none;
+}
+
+/* Videos */
+.videolist {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+ 
+.video {
+  padding-bottom: 3%;
+  padding-left: 5%;
+}
+
+.videoDesc {
+  color: black;
+}
+
+li strong {
+  color: #E62117;
+  text-transform: uppercase;
+}
+
+li {
+  margin-top: 35px;
+}
+
+
+/* Footer */
+.footer p {
+  color: #555555;
+}
+
+/* Search Button */
+button.btn.btn-default.ytbtn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.ytbtn {
+  color: #FFFFFF;
+  background-color: #e62117;
+  border-color: #e62117;
+}
+.ytbtn:hover {
+  color: #FFFFFF;
+  background-color: #E21D14;
+}
